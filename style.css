@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(184, 209, 207);
+    text-transform: capitalize;
+    font-family: 'Barlow Semi Condensed', sans-serif
+}
+
+#title {
+    color: rgb(135, 18, 18);
+    text-decoration: underline;
+    text-align: center;
+}
+
+.subtitle {
+    color: rgb(97, 93, 93);
+}
+
+h2:hover {
+    color: red
+}
+
+#google-link:link {
+    color: red;
+}
+
+#google-link:visited {
+    color: blue;
+}
+
+p[class~=article-title] {
+    background: plum
+}
+
+.article-title {
+    text-align: center;
+}
+
+#brand {
+    border: 5px solid black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container>div {
+    margin: 1px;
+    padding: 30px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.grid-container>div {
+    background-color: yellowgreen;
+    padding: 20px;
+    justify-content: center;
+}
+
+.submit-button {
+    margin: 20px 10px;
+    padding: 10px 10px;
+    transition: all 1s;
+    transform: translate(10px, 10px);
+}
+
+.submit-button:hover{
+    background: rgb(245, 66, 66);
+    padding: 15px 15px
+}
